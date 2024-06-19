@@ -115,7 +115,7 @@ func main() {
 	default:
 		fmt.Printf("%s", "Please enter the validity period number (press Enter directly to default to 1): ")
 	}
-	periodIndex := 1
+	periodIndex := 2
 	_, _ = fmt.Scanln(&periodIndex)
 	if periodIndex < 1 || periodIndex > len(jbPeriod) {
 		switch lang {
